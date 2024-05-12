@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: darkred;
+    padding: 1em;
+}
+#header-logo {
+    display: block;
+    width: 66%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#our-menus {
+    margin: auto;
+}
+
+#main-selector a {
+    font-family: "Barlow Condensed";
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+    color: darkred;
+}
+
+.menu-selector a {
+    font-family: "Barlow Condensed";
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+    color: darkred;
+}
+
+h1, h2, h3 {
+    font-family: "Uncial Antiqua";
+    margin: .25em;
+}
+
+h4, h5 {
+    font-family: "DM Serif Display";
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.7em;
+    margin-top: 1.1em;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin-top: .5em;
+}
+
+p {
+    font-family: "Barlow Condensed";
+    font-size: 1.4em;
+}
+
+.menus {
+    margin: 1rem auto ;
+    text-align: center;
+    max-width: 400px;
+}
+
+#main-selector {
+    font-size: larger;
+} 
+
+.menu-selector {
+    /* background-color: darkgreen; */
+    margin: auto;
+    max-width: 80%;
+    /* padding-bottom: .50em; */
+    /* color: white; */
+}
+
+.hours {
+    font-size: 1.1em;
+}
+
+.taco {
+    font-family: "DM Serif Display";
+    font-size: 1.3em;
+}
+
+#taco-tuesday {
+    margin-bottom: 0em;
+}
+#tacos {
+    margin-top: 0.4em;
+}
