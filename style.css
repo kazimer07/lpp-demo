@@ -74,13 +74,17 @@ a {
 #menu-selector a {
     padding-top: 5em;
     font-family: "Barlow Condensed";
-    font-size: 1.4em;
+    font-size: 1.7em;
     
 }
 
 #sub-menu-selector a {
     font-family: "Barlow Condensed";
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+#classic {
+    margin-top: 0.2em;
 }
 
 .sauces {
