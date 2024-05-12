@@ -1,10 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    background-color: antiquewhite;
 }
 
 header {
-    background-color: darkred;
+    background-color: darkgreen;
     padding: 1em;
     position: -webkit-sticky;
     position: sticky;
@@ -15,6 +16,7 @@ header {
     width: 66%;
     max-width: 300px;
     margin: 0 auto;
+    background-color: darkgreen;
 }
 
 .menus {
@@ -32,7 +34,7 @@ header {
 h1, h2, h3 {
     font-family: "Uncial Antiqua";
     /* padding-top: .7em; */
-    color: darkred;
+    color: darkgreen;
 }
 
 h1 {
@@ -68,7 +70,7 @@ p {
 }
 
 a {
-    color: darkred;
+    color: darkgreen;
     text-decoration: none;
 }
 
