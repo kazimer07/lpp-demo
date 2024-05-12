@@ -14,33 +14,17 @@ header {
     margin: 0 auto;
 }
 
-#our-menus {
+.menus {
+    width: 90%;
+    max-width: 350px;
     margin: auto;
-}
-
-#main-selector a {
-    font-family: "Barlow Condensed";
-    font-size: 1.3em;
-    font-weight: 500;
-    text-decoration: none;
-    color: darkred;
-}
-
-.menu-selector a {
-    font-family: "Barlow Condensed";
-    font-size: 1.3em;
-    font-weight: 500;
-    text-decoration: none;
-    color: darkred;
+    text-align: center;
+    padding: 1em;
 }
 
 h1, h2, h3 {
     font-family: "Uncial Antiqua";
-    margin: .25em;
-}
-
-h4, h5 {
-    font-family: "DM Serif Display";
+    padding-top: .5em;
 }
 
 h1 {
@@ -49,17 +33,15 @@ h1 {
 
 h2 {
     font-size: 2em;
-    margin-top: 1em;
 }
 
 h3 {
-    font-size: 1.7em;
-    margin-top: 1.1em;
+    font-size: 1.8em;
 }
 
 h4 {
+    font-family: "DM Serif Display";
     font-size: 1.4em;
-    margin-top: .5em;
 }
 
 p {
@@ -67,36 +49,29 @@ p {
     font-size: 1.4em;
 }
 
-.menus {
-    margin: 1rem auto ;
-    text-align: center;
-    max-width: 400px;
+.menu-group p {
+    padding-bottom: 0.5em;
 }
 
-#main-selector {
-    font-size: larger;
-} 
-
-.menu-selector {
-    /* background-color: darkgreen; */
-    margin: auto;
-    max-width: 80%;
-    /* padding-bottom: .50em; */
-    /* color: white; */
+#menu-selector a {
+    padding-top: 5em;
+    font-family: "Barlow Condensed";
+    font-size: 1.4em;
+    
 }
 
-.hours {
-    font-size: 1.1em;
+#sub-menu-selector a {
+    font-family: "Barlow Condensed";
+    font-size: 1.2em;
+}
+
+.sauces {
+    font-weight: 500;
+    padding: 0em;
 }
 
 .taco {
     font-family: "DM Serif Display";
     font-size: 1.3em;
-}
-
-#taco-tuesday {
-    margin-bottom: 0em;
-}
-#tacos {
-    margin-top: 0.4em;
+    padding: 0;
 }
