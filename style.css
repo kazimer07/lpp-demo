@@ -24,7 +24,7 @@ header {
 
 h1, h2, h3 {
     font-family: "Uncial Antiqua";
-    padding-top: .5em;
+    padding-top: .7em;
 }
 
 h1 {
@@ -42,6 +42,7 @@ h3 {
 h4 {
     font-family: "DM Serif Display";
     font-size: 1.4em;
+    margin-top: 0.5em;
 }
 
 p {
@@ -49,9 +50,7 @@ p {
     font-size: 1.4em;
 }
 
-.menu-group p {
-    padding-bottom: 0.5em;
-}
+
 
 #menu-selector a {
     padding-top: 5em;
@@ -70,8 +69,14 @@ p {
     padding: 0em;
 }
 
+
+#tacos {
+    margin-top: 0em;
+    padding: 0em;
+}
+
 .taco {
     font-family: "DM Serif Display";
     font-size: 1.3em;
-    padding: 0;
 }
+
