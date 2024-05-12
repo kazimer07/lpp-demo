@@ -25,6 +25,7 @@ header {
 h1, h2, h3 {
     font-family: "Uncial Antiqua";
     padding-top: .7em;
+    color: darkred;
 }
 
 h1 {
@@ -56,7 +57,15 @@ p {
     font-size: 1.4em;
 }
 
+a {
+    color: darkred;
+    text-decoration: none;
+}
 
+.hours {
+    font-size: 1em;
+    margin-bottom: .25em;
+}
 
 #menu-selector a {
     padding-top: 5em;
