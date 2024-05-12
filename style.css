@@ -31,7 +31,7 @@ header {
 
 h1, h2, h3 {
     font-family: "Uncial Antiqua";
-    padding-top: .7em;
+    /* padding-top: .7em; */
     color: darkred;
 }
 
@@ -40,11 +40,14 @@ h1 {
 }
 
 h2 {
+    margin-top: .7em;
     font-size: 2em;
 }
 
 h3 {
-    font-size: 1.8em;
+    margin-top: .8em;
+    font-size: 1.9em;
+    text-transform: capitalize;
 }
 
 h4 {
@@ -93,6 +96,10 @@ a {
 .sauces {
     font-weight: 500;
     padding: 0em;
+}
+
+#tacos {
+    margin-top: 0.4em;
 }
 
 .taco {
