@@ -35,7 +35,7 @@ h1, h2, h3 {
     font-family: "Uncial Antiqua";
     /* padding-top: .7em; */
     color: darkgreen;
-
+    text-decoration: solid;
 }
 
 h1 {
@@ -73,6 +73,10 @@ p {
 a {
     color: darkgreen;
     text-decoration: none;
+}
+
+hr {
+    border: 1px solid darkgreen;
 }
 
 .hours {
